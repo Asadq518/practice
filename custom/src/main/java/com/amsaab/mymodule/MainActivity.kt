@@ -11,5 +11,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         startActivity(Intent(this,MainActivity::class.java))
+        for (i in 1..5){
+
+        }
     }
 }
